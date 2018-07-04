@@ -6,7 +6,7 @@ Introduction介绍
 
 Patroni originated as a fork of `Governor <https://github.com/compose/governor>`__, the project from Compose. It includes plenty of new features.
 
-Patroni 起始自Compose公司的 `Governor <https://github.com/compose/governor>`_项目，其扩展出了很多新功能和特性。
+Patroni 起始自Compose公司的 `Governor <https://github.com/compose/governor>`__项目，其扩展出了很多新功能和特性。
 
 For an example of a Docker-based deployment with Patroni, see `Spilo <https://github.com/zalando/spilo>`__, currently in use at Zalando.
 
