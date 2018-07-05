@@ -110,11 +110,12 @@ Environment Configuration
 Go :ref:`here <environment>` for comprehensive information about configuring(overriding) settings via environment variables.
 
 
-Replication Choices
+Replication Choices 复制方式的选择
 -------------------
 
 Patroni uses Postgres' streaming replication, which is asynchronous by default. Patroni's asynchronous replication configuration allows for ``maximum_lag_on_failover`` settings. This setting ensures failover will not occur if a follower is more than a certain number of bytes behind the leader. This setting should be increased or decreased based on business requirements. It's also possible to use synchronous replication for better durability guarantees. See :ref:`replication modes documentation <replication_modes>` for details.
 
+Patroni 缺省使用 Postgresql 的异步流复制。Patroni 异步流复制配置允许设定 ``maximum_lag_on_failover`` 。
 
 Applications Should Not Use Superusers 应用程序不能使用超级用户
 --------------------------------------
